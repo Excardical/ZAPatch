@@ -92,7 +92,6 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -195,7 +194,6 @@ dist
 **/*.backup.*
 **/*.back.*
 
-node_modules
 
 *.sublime*
 
@@ -375,7 +373,6 @@ $RECYCLE.BIN/
 
 
 # dependencies
-/node_modules
 
 # testing
 /coverage
@@ -390,3 +387,4 @@ $RECYCLE.BIN/
 
 #generated manifest
 public/manifest.json
+node_modules
